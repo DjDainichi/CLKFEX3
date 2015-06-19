@@ -11,7 +11,17 @@ namespace GitExercise._3
         public static bool isExerciseComplete = false;
         static void Main(string[] args)
         {
+            ExpressYoSelf();
+            if (!isExerciseComplete == false)
+            {
+                Console.WriteLine("Great job another one for the books! Keep up the good habits!!");
+            }
+            else
+            {
+                Console.WriteLine("...Your not done cupcake... get back to work... Wussy");
+            }
 
+            Console.ReadLine();
         }
 
         public static bool ExpressYoSelf()
